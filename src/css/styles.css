@@ -91,3 +91,40 @@ body {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
+
+
+.form {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.delay {
+  
+margin-bottom: 8px;
+  
+}
+.delay-input {
+  height: 40px;
+  width: 360px;
+  box-sizing: border-box;
+}
+.form fieldset {
+  width: 360px;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  box-sizing: border-box;
+  
+}
+.form button {
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #fff;
+  border-style: none;
+  border-radius: 8px;
+    padding: 8px 16px;
+}
